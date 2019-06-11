@@ -4,10 +4,10 @@ def sort_array_asc(arr)
 end
 
 def sort_array_desc(arr)
-  arr.sort!{|x,y| y<=>x}
+  arr.sort{|x,y| y<=>x}
 end
 
 def sort_array_char_count(arr)
-  arr.sort
-  arr.length
+  arr.sort{|x,y| x.length <=> y.length
+
 end
