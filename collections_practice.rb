@@ -41,3 +41,16 @@ end
 def sum_array(arr)
 	arr.inject{|sum,n| sum + n}
 end
+
+def add_s(arr)
+	new_arr = []
+  arr.each_with_index{|element, index| 
+	# puts "#{element}, #{index}"
+	if index == 1
+		new_arr << element
+	else
+		new_arr << element +"s"
+	end
+	}
+	new_arr
+end
