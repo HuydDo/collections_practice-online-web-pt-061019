@@ -8,5 +8,6 @@ def sort_array_desc(arr)
 end
 
 def sort_array_char_count(arr)
-  arr.sort.length
+  arr.sort
+  arr.length
 end
