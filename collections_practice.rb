@@ -26,7 +26,6 @@ def kesha_maker(arr)
 	arr.each do |item|
 		item[2] = "$"
 		new_arr << item
-		# puts "#{arr}"
 	end
 	new_arr
 end
