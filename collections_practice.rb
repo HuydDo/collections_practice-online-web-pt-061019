@@ -45,7 +45,6 @@ end
 def add_s(arr)
 	new_arr = []
   arr.each_with_index{|element, index|
-	puts "#{element}, #{index}"
 	if index == 1
 		new_arr << element
 	else
